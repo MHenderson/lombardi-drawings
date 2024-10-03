@@ -6,3 +6,6 @@ Code behind a blog post about the Lombardi Spirograph.
 
 ![](img/grotzsch.svg)
 
+## Grötzsch graph (with options)
+
+![](img/grotzsch_alt.svg)
