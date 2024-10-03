@@ -22,3 +22,11 @@ python LombardiSpirograph.py \
 ```
 
 ![](img/grotzsch_alt.svg)
+
+## Icosahedron graph
+
+```
+python LombardiSpirograph.py 3-a01-01-1-a > img/icosahedron.svg
+```
+
+![](img/icosahedron.svg)
