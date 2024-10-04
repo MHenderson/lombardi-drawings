@@ -30,3 +30,20 @@ python LombardiSpirograph.py 3-a01-01-1-a > img/icosahedron.svg
 ```
 
 ![](img/icosahedron.svg)
+
+## Petersen graph
+
+```
+python LombardiSpirograph.py petersen > img/petersen.svg
+```
+
+![](img/petersen.svg)
+
+## Petersen graph (alternative version)
+
+```
+python LombardiSpirograph.py 5-b0-a > img/petersen_alt.svg
+```
+
+![](img/petersen_alt.svg)
+

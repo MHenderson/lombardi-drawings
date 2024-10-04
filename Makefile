@@ -6,7 +6,9 @@ all: img
 
 img: $(BUILDDIR)/grotzsch.svg\
      $(BUILDDIR)/grotzsch_alt.svg\
-     $(BUILDDIR)/icosahedron.svg
+     $(BUILDDIR)/icosahedron.svg\
+     $(BUILDDIR)/petersen.svg\
+     $(BUILDDIR)/petersen_alt.svg
 
 clean:
 	rm -r $(BUILDDIR)
@@ -22,6 +24,14 @@ $(BUILDDIR)/grotzsch_alt.svg:
 $(BUILDDIR)/icosahedron.svg:
 	mkdir -p $(BUILDDIR)
 	$(SPIROGRAPH) 3-a01-01-1-a > $@
+
+$(BUILDDIR)/petersen.svg:
+	mkdir -p $(BUILDDIR)
+	$(SPIROGRAPH) petersen > $@
+
+$(BUILDDIR)/petersen_alt.svg:
+	mkdir -p $(BUILDDIR)
+	$(SPIROGRAPH) 5-b0-a > $@
 
 download_spirograph:
 	curl https://raw.githubusercontent.com/MHenderson/lombardi-spirograph/refs/heads/master/LombardiSpirograph.py > $(SPIROGRAPH_PATH)
