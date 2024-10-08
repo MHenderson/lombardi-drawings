@@ -5,7 +5,7 @@ Code behind a blog post about the Lombardi Spirograph.
 ## Grötzsch graph
 
 ```
-python LombardiSpirograph.py grotzsch > img/grotzsch.svg
+python LombardiSpirograph.py grotzsch
 ```
 
 ![](img/grotzsch.svg)
@@ -18,7 +18,7 @@ python LombardiSpirograph.py \
     --color=blue \
     --radius=0.8 \
     --outline \
-    grotzsch > grotzsch_alt.svg
+    grotzsch
 ```
 
 ![](img/grotzsch_alt.svg)
@@ -26,7 +26,7 @@ python LombardiSpirograph.py \
 ## Icosahedron graph
 
 ```
-python LombardiSpirograph.py 3-a01-01-1-a > img/icosahedron.svg
+python LombardiSpirograph.py 3-a01-01-1-a
 ```
 
 ![](img/icosahedron.svg)
@@ -34,7 +34,7 @@ python LombardiSpirograph.py 3-a01-01-1-a > img/icosahedron.svg
 ## Petersen graph
 
 ```
-python LombardiSpirograph.py petersen > img/petersen.svg
+python LombardiSpirograph.py petersen
 ```
 
 ![](img/petersen.svg)
@@ -42,7 +42,7 @@ python LombardiSpirograph.py petersen > img/petersen.svg
 ## Petersen graph (alternative version)
 
 ```
-python LombardiSpirograph.py 5-b0-a > img/petersen_alt.svg
+python LombardiSpirograph.py 5-b0-a
 ```
 
 ![](img/petersen_alt.svg)
